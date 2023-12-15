@@ -14,3 +14,4 @@ in InDesign. Right-click and choose "Run Script" to activate.
 ### RelinkBookDocuments
 
 Use this script to update paths for moved InDesign Documents in an InDesign Book.
+Tested on MacOs, probably doesn't work on Windows.

@@ -1,6 +1,7 @@
 ﻿// Author: Raphael Matto
 // Date: Dec 15, 2023
-// Use this script to update paths for moved InDesign Documents in an InDesign Book.
+// This script updates paths for moved InDesign Documents in an InDesign Book.
+// Tested on MacOs, probably doesn't work on Windows.
 
 main();
 
