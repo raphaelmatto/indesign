@@ -6,6 +6,8 @@
 main();
 
 function main() {
+
+    // If there are no Books open, app.activeBook fails.
     try {
         var book = app.activeBook;
     } catch(e) {
@@ -22,10 +24,10 @@ function main() {
         exit();
     }
 
-    var userConfirmation = confirm(
+    var confirmed = confirm(
         "This script will replace all missing Document paths with Document paths that exist at " +
         newRoot + " for the Book " + book.name + "." + " Do you want to continue?", true, "Please confirm");
-    if (!userConfirmation) {
+    if (!confirmed) {
         exit();
     }
 
@@ -47,5 +49,4 @@ function main() {
     }
 
     alert("Paths updated for " + count + " Documents in " + book.name + ".")
-
 }
